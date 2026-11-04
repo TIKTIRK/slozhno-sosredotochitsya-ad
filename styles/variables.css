@@ -3,14 +3,14 @@
   и их переопределение под различные устройства
 */
 :root {
-  --page-background-image: url("../images/cover-image-dark.png");
-  --page-background-color:  #000028;
-  --page-font-family: "IBM Plex mono", monospace;
-  --text-color: #f1b2ce;
-  --accent-color: #ff0070;
-  --caption-color:  #db00ff;
-  --additional-color: #ff0070;
-  --title-color:  #000028;
-  --additional-color-opacity:  #ff007040;
-  --rec-visibility: visible;
+	--page-background-image: url('../images/cover-image-dark.png');
+	--page-background-color: #000028;
+	--page-font-family: 'IBM Plex mono', monospace;
+	--text-color: #f1b2ce;
+	--accent-color: #ff0070;
+	--caption-color: #db00ff;
+	--additional-color: #ff0070;
+	--title-color: #000028;
+	--additional-color-opacity: #ff007040;
+	--rec-visibility: visible;
 }
