@@ -187,3 +187,18 @@
 .cause-section__title {
   margin-bottom: 20px;
 }
+
+.gallery {
+  gap: 10px;
+}
+
+.imgs-list {
+  display: grid;
+  gap: 10px;
+}
+
+.imgs-list__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
