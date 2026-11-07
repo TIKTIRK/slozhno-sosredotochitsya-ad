@@ -274,3 +274,28 @@
   }
 }
 
+@media (width >= 1024px) {
+  .header__theme-menu {
+    justify-self: center;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 215px;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: row;
+  }
+
+  .sections {
+    grid-template-columns: 315px 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .mid-section__topic-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} 

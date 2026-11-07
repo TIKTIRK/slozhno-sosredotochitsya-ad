@@ -24,3 +24,16 @@
 	/* Вам также нужно будет написать ряд подобных селекторов */
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+  --page-background-image: url('/images/cover-image-light.png');
+	--page-background-color: #fff1f7;
+	--text-color: #353430;
+	--accent-color: #ff8dcb;
+	--caption-color: #ffc2e6;
+	--additional-color: #353430;
+	--title-color: #353430;
+	--additional-color-opacity: #35343040;
+	--rec-visibility: hidden;
+  }
+} 
