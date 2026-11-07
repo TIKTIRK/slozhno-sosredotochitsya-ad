@@ -129,43 +129,43 @@
 }
 
 .main-content {
-  display: grid;
-  padding: 40px 10px;
-  gap: 50px;
+	display: grid;
+	padding: 40px 10px;
+	gap: 50px;
 }
 
 .sections {
-  display: grid;
-  gap: 20px;
+	display: grid;
+	gap: 20px;
 }
 
 .title {
-  color: var(--additional-color);
-  font-size: 18px;
-  font-weight: 700;
+	color: var(--additional-color);
+	font-size: 18px;
+	font-weight: 700;
 }
 
 .topics-list {
-  display: grid;
-  gap: 20px;
+	display: grid;
+	gap: 20px;
 }
 
 .topic {
-  display: grid;
-  gap: 10px;
+	display: grid;
+	gap: 10px;
 }
 
 .subtitle-decor {
-  color: var(--title-color);
-  background: var(--accent-color);
+	color: var(--title-color);
+	background: var(--accent-color);
 }
 
-.adviсe-title{
-  font-weight: 400;
+.adviсe-title {
+	font-weight: 400;
 }
 
 .text-link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .link-shadow {
@@ -173,42 +173,42 @@
 }
 
 .text-link:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .text-link:focus {
-  outline: 0;
+	outline: 0;
 }
 
 .text-link:focus-visible {
-  outline: 1px solid;
+	outline: 1px solid;
 }
 
 .cause-section__title {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .gallery {
-  gap: 10px;
+	gap: 10px;
 }
 
 .imgs-list {
-  display: grid;
-  gap: 10px;
+	display: grid;
+	gap: 10px;
 }
 
 .imgs-list__img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .footer {
-  display: grid;
-  padding: clamp(10px,  0.2639rem + 1.5408vw, 20px);
-  height: 100vh;
-  place-items: center;
+	display: grid;
+	padding: clamp(10px, 0.2639rem + 1.5408vw, 20px);
+	height: 100vh;
+	place-items: center;
 }
 
 .footer-shadow {
@@ -216,86 +216,85 @@
 }
 
 @media (width >= 768px) {
-  
-  .header {
-    padding-left: 0;
-  }
+	.header {
+		padding-left: 0;
+	}
 
-  .header__theme-menu {
-    margin-top: 175px;
-    margin-bottom: 70px;
-  }
+	.header__theme-menu {
+		margin-top: 175px;
+		margin-bottom: 70px;
+	}
 
-  .header__text {
-    justify-self: end;
-    inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
-  }
+	.header__text {
+		justify-self: end;
+		inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
+	}
 
-  .main-content {
-    gap: 80px;
-    padding: 60px 20px;
-  }
-  
-  .rec {
-    right: 30px;
-    top: 20px;
-  }
+	.main-content {
+		gap: 80px;
+		padding: 60px 20px;
+	}
 
-  .caption {
-    font-size: clamp(120px, 0.5625rem + 14.4531vw, 157px);
-  }
+	.rec {
+		right: 30px;
+		top: 20px;
+	}
 
-  .sections {
-    grid-template-columns: 236px 1fr;
-  }
+	.caption {
+		font-size: clamp(120px, 0.5625rem + 14.4531vw, 157px);
+	}
 
-  .mid-section__topic-list {
-    grid-column-start: span 2;
-  }
+	.sections {
+		grid-template-columns: 236px 1fr;
+	}
 
-  .gallery {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
+	.mid-section__topic-list {
+		grid-column-start: span 2;
+	}
 
-  .imgs-list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
+	.gallery {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
 
-  .imgs-list__unit:first-child,
-  .imgs-list__unit:last-child {
-    grid-column-start: span 2;
-  }
+	.imgs-list {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
 
-  .imgs-list__unit:nth-child(2),
-  .imgs-list__unit:nth-child(3) {
-    grid-row-start: span 2;
-  }
+	.imgs-list__unit:first-child,
+	.imgs-list__unit:last-child {
+		grid-column-start: span 2;
+	}
+
+	.imgs-list__unit:nth-child(2),
+	.imgs-list__unit:nth-child(3) {
+		grid-row-start: span 2;
+	}
 }
 
 @media (width >= 1024px) {
-  .header__theme-menu {
-    justify-self: center;
-    margin-left: 20px;
-    margin-top: 0;
-    margin-bottom: 215px;
-  }
+	.header__theme-menu {
+		justify-self: center;
+		margin-left: 20px;
+		margin-top: 0;
+		margin-bottom: 215px;
+	}
 
-  .header__theme-menu-list {
-    flex-direction: row;
-  }
+	.header__theme-menu-list {
+		flex-direction: row;
+	}
 
-  .sections {
-    grid-template-columns: 315px 1fr;
-  }
+	.sections {
+		grid-template-columns: 315px 1fr;
+	}
 
-  .gallery {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
+	.gallery {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
 
-  .mid-section__topic-list {
-    grid-template-columns: repeat(3, 1fr);
-  }
-} 
+	.mid-section__topic-list {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
